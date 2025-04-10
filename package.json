@@ -12,23 +12,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git:https://github.com/i19930607/line-echo-bot.git"
+    "url": "git://github.com/i19930607/line-echo-bot.git"
   },
   "homepage": "https://github.com/i19930607/line-echo-bot#readme",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/i19930607/line-echo-bot/issues"
-  }
-}
+  },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/i19930607/line-echo-bot/issues"
-  },
-  "homepage": "https://github.com/i19930607/line-echo-bot#readme",
-  "dependencies": {
-    "@line/bot-sdk": "^9.8.0",
-    "express": "^5.1.0"
-  }
+  "author": ""
 }
