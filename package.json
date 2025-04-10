@@ -1,0 +1,24 @@
+{
+  "name": "line-echo-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/i19930607/line-echo-bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/i19930607/line-echo-bot/issues"
+  },
+  "homepage": "https://github.com/i19930607/line-echo-bot#readme",
+  "dependencies": {
+    "@line/bot-sdk": "^9.8.0",
+    "express": "^5.1.0"
+  }
+}
