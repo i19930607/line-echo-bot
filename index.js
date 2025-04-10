@@ -34,7 +34,7 @@ function handleEvent(event) {
   });
 }
 
-const port = process.env.PORT || 3000;
+const port = 10000;
 app.listen(port, () => {
   console.log(`LINE Bot is running on port ${port}`);
 });
