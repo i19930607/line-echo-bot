@@ -8,10 +8,17 @@ const config = {
 
 const app = express();
 
+// ✅ 加這一行！用來解析 JSON
+app.use(express.json());
+
 app.post('/webhook', middleware(config), (req, res) => {
   Promise
     .all(req.body.events.map(handleEvent))
-    .then(result => res.json(result));
+    .then((result) => res.json(result))
+    .catch((err) => {
+      console.error(err); // ✅ 加上錯誤紀錄
+      res.status(500).end();
+    });
 });
 
 const client = new Client(config);
